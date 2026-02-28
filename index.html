@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FastTrack, AquaLog & StreakMaster - 100% free health and wellness apps for iOS and Android">
+    <title>MoneyMaker Apps - FastTrack, AquaLog & StreakMaster</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        header {
+            text-align: center;
+            color: white;
+            padding: 3rem 0;
+        }
+        
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+        
+        .subtitle {
+            font-size: 1.25rem;
+            opacity: 0.9;
+        }
+        
+        .apps-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+        
+        .app-card {
+            background: white;
+            border-radius: 20px;
+            padding: 2rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .app-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+        }
+        
+        .app-icon {
+            width: 100px;
+            height: 100px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 22px;
+            margin: 0 auto 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+        }
+        
+        .app-card.fasttrack .app-icon {
+            background: linear-gradient(135deg, #4A90E2 0%, #7B68EE 100%);
+        }
+        
+        .app-card.aqualog .app-icon {
+            background: linear-gradient(135deg, #00B4DB 0%, #0083B0 100%);
+        }
+        
+        h2 {
+            font-size: 1.75rem;
+            margin-bottom: 0.5rem;
+            text-align: center;
+        }
+        
+        .app-description {
+            text-align: center;
+            color: #666;
+            margin-bottom: 1.5rem;
+        }
+        
+        .app-links {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin-top: 1.5rem;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+        
+        .btn-primary {
+            background: #667eea;
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: #5568d3;
+            transform: scale(1.05);
+        }
+        
+        .btn-secondary {
+            background: #f0f0f0;
+            color: #333;
+        }
+        
+        .btn-secondary:hover {
+            background: #e0e0e0;
+        }
+        
+        .legal-links {
+            background: white;
+            border-radius: 20px;
+            padding: 2rem;
+            text-align: center;
+            margin: 2rem 0;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        
+        .legal-links h3 {
+            margin-bottom: 1rem;
+            color: #667eea;
+        }
+        
+        .legal-links a {
+            color: #667eea;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: 500;
+        }
+        
+        .legal-links a:hover {
+            text-decoration: underline;
+        }
+        
+        footer {
+            text-align: center;
+            color: white;
+            padding: 2rem 0;
+            opacity: 0.8;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .apps-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .app-links {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚀 MoneyMaker Apps</h1>
+            <p class="subtitle">100% Free Health & Wellness Apps — No Subscriptions, No Ads</p>
+        </header>
+        
+        <div class="apps-grid">
+            <div class="app-card fasttrack">
+                <div class="app-icon">⏱️</div>
+                <h2>FastTrack</h2>
+                <p class="app-description">
+                    Intermittent fasting made simple. Track your fasting windows with 16:8, 18:6, OMAD plans. 
+                    See fasting zones, monitor streaks, and reach your health goals — all for free.
+                </p>
+                <div class="app-links">
+                    <a href="#" class="btn btn-primary">App Store</a>
+                    <a href="#" class="btn btn-primary">Google Play</a>
+                </div>
+            </div>
+            
+            <div class="app-card aqualog">
+                <div class="app-icon">💧</div>
+                <h2>AquaLog</h2>
+                <p class="app-description">
+                    Stay hydrated effortlessly. Track water, tea, coffee & more with quick-add buttons,
+                    get smart reminders, and build a healthy hydration habit — all for free.
+                </p>
+                <div class="app-links">
+                    <a href="#" class="btn btn-primary">App Store</a>
+                    <a href="#" class="btn btn-primary">Google Play</a>
+                </div>
+            </div>
+
+            <div class="app-card streakmaster" style="border-top: 3px solid #10b981;">
+                <div class="app-icon" style="background: linear-gradient(135deg, #10b981 0%, #047857 100%);">🔥</div>
+                <h2>StreakMaster</h2>
+                <p class="app-description">
+                    Build habits that stick. Create unlimited habits, track daily streaks,
+                    celebrate milestones, and transform your routines — all for free.
+                </p>
+                <div class="app-links">
+                    <a href="#" class="btn btn-primary">App Store</a>
+                    <a href="#" class="btn btn-primary">Google Play</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="legal-links">
+            <h3>📄 Legal Information</h3>
+            <div>
+                <a href="privacy.html">Privacy Policy</a>
+                <span>•</span>
+                <a href="terms.html">Terms of Service</a>
+                <span>•</span>
+                <a href="mailto:support@moneymaker-apps.com">Support</a>
+            </div>
+        </div>
+        
+        <footer>
+            <p>&copy; 2026 MoneyMaker Apps. All rights reserved.</p>
+            <p style="margin-top: 0.5rem; font-size: 0.9rem;">
+                Built with ❤️ for your health and wellness
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
